@@ -1,0 +1,42 @@
+
+/* .open-sans-normal font  */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:  100;
+}
+/* style nav section  */
+.navication-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav >ul>li{
+    margin-right: 50px;
+    list-style: none;
+}
+nav > ul >li>a{
+    text-decoration: none;
+    color : black;
+    
+}
+.nav-title{
+    color: rgba(24, 24, 24, 1);
+    font-weight: 800;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+/* share style button  */
+.btn-primary{
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+}
