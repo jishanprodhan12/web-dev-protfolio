@@ -98,9 +98,10 @@ nav > ul >li>a{
     height: 395px ;
     width: 453px;
     justify-content: center;
-    padding-top: 20px;   
+    padding-top: 20px;  
+    padding-left: 35px;
 }
 .banner-image img{
     height: 100%;
-    width: 80%;
+    width: 99%;
 }
