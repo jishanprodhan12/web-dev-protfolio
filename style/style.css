@@ -4,16 +4,43 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-variation-settings:  100;
+  border: 2px solid violet;
+  max-width: 1440px;
+ 
+}
+/* universal selector */
+*{
+    margin:0;
+    padding: 0;
+}
+/* background for header  */
+.open-sans-normal{
+    background-image: url('/images/developer.png') ;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain ;
 }
 /* style nav section  */
+/* nav title */
+.nav-title{
+    color: rgba(24, 24, 24, 1);
+    font-weight: 800;
+    margin-left: 110px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+/* nav-bar  */
 .navication-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 40px 0px;
 }
 nav > ul {
     display: flex;
     align-items: center;
+    margin-right: 110px;
 }
 nav >ul>li{
     margin-right: 50px;
@@ -24,13 +51,7 @@ nav > ul >li>a{
     color : black;
     
 }
-.nav-title{
-    color: rgba(24, 24, 24, 1);
-    font-weight: 800;
-}
-.text-primary{
-    color: #FD6E0A;
-}
+
 /* share style button  */
 .btn-primary{
     width: 150px;
@@ -39,4 +60,47 @@ nav > ul >li>a{
     color: #ffff;
     border: none;
     border-radius: 5px;
+}
+/* style banner section */
+.banner-section{
+    display: flex;
+    justify-content: center;   
+    background-color: #FFF8F3;
+    width: 90%;
+    margin-left: auto;
+}
+
+.greeting{
+    color: rgba(71, 71, 71, 1);
+    font-weight: 600;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.banner-sub-title{
+    color: rgba(24, 24, 24, 1);
+    font-weight: bolder;
+    font-size: 90;
+    margin-bottom: 10px;
+}
+.banner-contant{
+    color:rgba(117, 117, 117, 1);
+    margin-top: 10px;
+}
+.section-text-container{
+    margin-left: 110px;  
+}
+.banner-image{
+    display: flex;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    height: 395px ;
+    width: 453px;
+    justify-content: center;
+    padding-top: 20px;   
+}
+.banner-image img{
+    height: 100%;
+    width: 80%;
 }
