@@ -4,7 +4,6 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-variation-settings:  100;
-  border: 2px solid violet;
   max-width: 1440px;
  
 }
@@ -104,4 +103,19 @@ nav > ul >li>a{
 .banner-image img{
     height: 100%;
     width: 99%;
+}
+/* banner section button  */
+.banner-btn-section{
+    margin-top: 30px;
+    display: flex;
+    justify-items: center;
+    gap: 30px;
+}
+.content-btn{
+    height: 64px;
+    width: 160px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: rgba(255, 248, 243, 1);
+    color :#FD6E0A;
 }
