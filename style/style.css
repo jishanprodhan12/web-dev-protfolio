@@ -308,3 +308,67 @@ nav > ul >li>a{
     justify-content: center;
     margin-top: 50px;
 }
+/* style footer section  */
+.footer-section-container{
+    height: 780px;
+    background-color: rgba(255, 248, 243, 1);
+  
+}
+.footer-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 75%;
+    margin: 10px auto;
+}
+.connect-title{
+    color: rgba(24, 24, 24, 1);
+    margin-bottom: 30px;
+}
+.message-title{
+    color: rgba(24, 24, 24, 1);
+    margin-bottom: 30px;
+    padding-top: 80px;
+}
+.connect-text{
+    color: rgba(71, 71, 71, 1);
+    height: 65px;
+    width: 400px;
+}
+.conncet-icon{
+    border: 2px solid ;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 30PX;
+    gap: 15px;
+}
+.message-container{
+  margin-top: 150px; 
+}
+.message-inputs{
+    display: flex;
+    flex-direction: column;
+    gap : 30px;
+}
+#name , #email{
+    width: 450px;
+    height: 55px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: none;
+    box-shadow: 7px 7px 10px #ffff;
+}
+#text-area{
+    width: 450px;
+    height: 150px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: none;
+    box-shadow: 7px 7px 10px #ffff;
+}
+.footer-btn{
+    display: flex;
+    margin-top: 18px;
+}
