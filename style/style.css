@@ -7,6 +7,14 @@
   max-width: 1440px;
  
 }
+/* open-sans-main-secton */
+.open-sans-main {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings:  100;
+    max-width: 1440px;
+   
+  }
 /* universal selector */
 *{
     margin:0;
@@ -157,18 +165,10 @@ nav > ul >li>a{
     color: rgba(117, 117, 117, 1);
 }
 .about-me-footer{
-    margin-top: 30px;
-}
-.about-tr-foot{
-    display: flex;
-    gap: 30px;
-    margin: 20px 0;
- 
-}
-.about-me-footer{
    display: flex;
    gap: 30px;
    padding:3px;
+   margin-top: 20px;
 }
 .item-title{
     text-align: center;
@@ -178,6 +178,78 @@ nav > ul >li>a{
 .item-description{
     text-align: center;
     color: rgba(71, 71, 71, 1);
-    font-weight: 500;
+    font-weight: 600;
+    font-size: small;
 
 }
+/* style what-i-do-section */
+.what-i-do-section{
+    margin-top: 16px;
+    max-width: 1440px;
+    height: 600px;
+}
+.what-i-do-section-container{
+    width: 75%;
+    margin: 16px auto;   
+}
+.what-i-do-first-part-title{
+    color: rgba(24, 24, 24, 1);
+    text-align: center ;
+}
+.what-i-do-first-part-text{
+    width: 60%;
+    text-align: center;
+    color: rgba(117, 117, 117, 1);
+    margin: 16px auto;
+}
+.what-i-do-second-container{
+    display: flex;
+    gap: 10px; 
+    width: 85%;
+    margin: 16px auto;
+}
+/* style-java-script // React  // Node.js // MongoDB*/
+
+.second-java-script-container , .second-React-container ,
+.second-node-js-container , .second-mongo-db-container{
+    height: 330px;
+    width: 240px;
+    margin: 0px auto;
+    padding: 0px auto;
+    box-shadow: 0px 6px 50px #e7e7e7e2;
+    border-radius: 5px;
+}
+.java-script-image-container , .React-image-container , 
+.Node-js-image-container ,.mongo-db-image-container{
+    display: flex;
+}
+.java-script-image-container img , .React-image-container img  ,
+.Node-js-image-container img , .mongo-db-image-container img {
+    height: 44px;
+    width: 44px;
+    margin-top: 30px ;
+    margin-left: 30px;
+}
+
+.java-script-text-container , .React-text-container ,
+.Node-js-text-container , .mongo-db-text-container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 33px 30px 30px;
+  
+}
+.java-script-title , .React-title ,
+.Node-js-title , .mongo-db-title{
+    font-size: small;
+    font-weight: bolder;
+    color:rgba(24, 24, 24, 1);
+}
+
+.java-script-text , .React-text ,
+.Node-js-text , .mongo-db-text {
+    color : rgba(117, 117, 117, 1);
+    height: 200px;
+    width: 196px;
+    margin-top: 20px;
+}
+/* style A summary of My Resume section */
