@@ -253,3 +253,58 @@ nav > ul >li>a{
     margin-top: 20px;
 }
 /* style A summary of My Resume section */
+.resume-container{
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+}
+.resume-titile{
+    text-align: center;
+    margin-top: 16px;
+    color :rgba(24, 24, 24, 1);
+    
+}
+.resume-combaine-box{
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
+}
+.resume-education-title , .resume-experience-title{
+    color :rgba(71, 71, 71, 1);
+    text-align: center ;
+    margin-bottom: 30px;
+
+}
+.msc-first ,.sr-first,.jr-second,.html-thired{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 30px #f9f9f9;
+}
+.msc-first-title , .sr-title ,
+.jr-title , .html-title{
+    color:rgba(71, 71, 71, 1);
+    font-weight: 600;
+    font-size: medium;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.msc-first-sub-titile , .sr-sub-titile , 
+.jr-sub-titile , .html-sub-titile{
+    color:rgba(117, 117, 117, 1);
+    font-size: small;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.msc-first-text , .sr-text ,
+.jr-text , .html-text{
+    color:rgba(117, 117, 117, 1);
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: 14px;
+    text-align: left;
+}
+.resume-download-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
